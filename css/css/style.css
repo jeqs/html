@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "Stanley";
+  src: url("../fonts/Stanley.woff2") format("woff2"),
+    url("../fonts/Stanley.woff") format("woff"),
+    url("../fonts/Stanley.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Tektur:wght@400;700&display=swap");
+
+html {
+  font-size: 18px;
+}
+
+body {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  line-height: 2em;
+}
+
+p {
+  color: red !important;
+  font-family: "Tektur", cursive;
+  font-weight: 700;
+}
+
+p {
+  color: royalblue;
+  width: 50%;
+  font-size: 1em;
+}
+
+article {
+  color: red;
+  width: 500px;
+  font-size: 1.4em;
+  font-family: "Borel", cursive;
+  font-family: "Tektur", cursive;
+}
+
+div {
+  color: rgb(114, 91, 91);
+  font-size: 2em;
+  width: calc(50vw + 150px);
+  height: 75vh;
+  background-color: #ccc;
+}
+
+article h2 {
+  color: #cc6600;
+  font-size: 1.6em;
+  line-height: 1.2em;
+}
+
+#lateral {
+  font-size: 0.9em;
+}
+
+#lateral h3 {
+  color: #003366;
+}
+
+#lateral p {
+  width: 140px;
+  border: 1px solid black;
+  white-space: pre;
+  word-break: keep-all;
+}
+
+#alineacion {
+  text-align: center;
+  text-align-last: left;
+  vertical-align: center;
+}
+
+#transform h3 {
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}
+
+nav a{
+  color: black;
+}
+
+nav a:visited, a{
+  color: red;
+}
+
+nav a:hover, a{
+  color: blue;
+}

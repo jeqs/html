@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ejercicio de Formularios</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <header>
+      <h1>Ejemplos de Formularios</h1>
+      <hr />
+    </header>
+    <main>
+      <form action="#" method="get">
+        <h2>Lista de Inputs</h2>
+
+        <fieldset>
+          <legend>Grupo 1</legend>
+          <div>
+            <label for="texto">Label de Texto</label>
+            <input id="texto" type="text" name="texto" />
+          </div>
+          <div>
+            <label for="textoArea">Label de Texto Area</label><br />
+            <textarea
+              id="textoArea"
+              type="tex"
+              name="textoArea"
+              rows="10"
+              cols="20"
+            ></textarea>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Grupo 2</legend>
+          <div>
+            <label for="select">Label de Select</label><br />
+            <select id="select" name="select" required>
+              <option value="">-- Seleccione --</option>
+              <option value="1">Uno</option>
+              <option value="2">Dos</option>
+              <option value="2">Tres</option>
+            </select>
+          </div>
+        </fieldset>
+
+        <br />
+        <div>
+          <button>Enviar</button>
+        </div>
+      </form>
+      <hr />
+    </main>
+    <footer>Jeqs</footer>
+    <script src="" async defer></script>
+  </body>
+</html>

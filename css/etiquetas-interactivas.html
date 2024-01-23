@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Ejercicio de Etiquetas</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    <header>
+      <h1>Ejemplos de Etiquetas Interactivas</h1>
+      <hr />
+    </header>
+    <main>
+      <section>
+        <p>Atributo sin Hidden</p>
+      </section>
+      <section hidden>
+        <p>Atributo con Hidden</p>
+      </section>
+      <details>
+        <summary>Titulo de Detalle</summary>
+        <section>
+          <p>Atributo sin Hidden</p>
+        </section>
+        <section>
+          <p>section</p>
+        </section>
+      </details>
+
+      <button onclick="document.getElementById('dialogo1').open = true">
+        Open Dialog
+      </button>
+      <dialog id="dialogo1">
+        <summary>Titulo de Detalle</summary>
+        <section>
+          <p>Atributo sin Hidden</p>
+        </section>
+        <section>
+          <p>section</p>
+        </section>
+      </dialog>
+      <button onclick="document.getElementById('dialogo1').close()">
+        Close Dialog
+      </button>
+
+      <!-- <dialog open>
+        <details>Detalles</details>
+      </dialog> -->
+      <hr />
+      <button popovertarget="message" popovertargetaction="toggle">Open popover</button>
+      <br />
+      <div id="message" popover>
+        <h1>Titulo PopOper</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse
+          fugiat ratione, autem ipsa dolore fugit sunt neque est cumque
+          cupiditate molestiae natus! Aspernatur minus perspiciatis placeat
+          eveniet? Molestiae, reprehenderit.
+        </p>
+      </div>
+
+      <hr />
+    </main>
+    <footer>Jeqs</footer>
+    <script src="" async defer></script>
+  </body>
+</html>
